@@ -119,7 +119,7 @@ void RtpsTopics::publish(uint8_t topic_ID, char data_buffer[], size_t len)
         break;
 @[end for]@
         default:
-            printf("Unexpected topic ID to publish\n");
+            printf("Unexpected topic ID '%hhu' to publish\n", topic_ID);
         break;
     }
 }
